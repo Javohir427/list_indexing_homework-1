@@ -6,4 +6,13 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    a = []
+    for i in list1:
+        if i ==1:
+            a.append(True)
+        else:
+            a.append(i)
+
+
+    return a
+print(main([1, 0, 1, 1, 0]))
