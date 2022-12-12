@@ -6,4 +6,12 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    a = []
+    for i in list1:
+        if i == 0 :
+            a.append(False)
+        else:
+            a.append(i)
+
+    return a
+print(main([1,1,1,1,0,0,0,1]))
